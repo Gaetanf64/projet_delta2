@@ -2,10 +2,7 @@
 
 namespace App;
 
-use App\Controllers\MainController;
 use App\Controllers\Home;
-use App\Controllers\Import;
-
 
 
 // On génère une constante contenant le chemin vers la racine publique du projet
@@ -48,7 +45,6 @@ if ($params[0] != "") {
         $controller->$action($params);
     } else {
         // On envoie le code réponse 404
-        echo "merde";
         http_response_code(404);
         echo "La page recherchée n'existe pas";
     }

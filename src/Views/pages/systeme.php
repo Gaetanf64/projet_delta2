@@ -19,16 +19,16 @@
                     <tbody>
                     <?php foreach ($systemes as $systeme) : ?>
                         <tr>
-                            <th scope="row" class="scope" ><?= $systeme->getExigence() ?></th>
+                            <td><?= $systeme->getExigence() ?></td>
                             <td><?= $systeme->getDescription() ?></td>
-                            <td><a href=<?= local . "exigence/detail" ?> class="btn btn-primary">Selectionner</a></td>
+                            <td><a href=<?= local . "exigence/liste/" ?><?= $systeme->getExigence() ?> class="btn btn-primary">Liste</a></td>
                         </tr>
                     <?php endforeach; ?>
                     </tbody>
                 </table>
             </div>
 		</div>
-
+    </div>
     <div class="row haut">
         <div class="col-md-4 col-sm-12 d-grid gap-2 mx-auto haut">
             <a href=<?= local . "exigence/perimetre" ?> class="btn btn-success">Voir Perimetre du Systeme</a>

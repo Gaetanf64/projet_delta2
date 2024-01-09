@@ -3,7 +3,7 @@
 <?php require_once ROOT . 'src/Views/layout/header.php'; ?>
 
 <main class="container">
-    <!-- Section Non Focntionnelle -->
+    <!-- Section Non Fonctionnelle -->
     <div class="row haut">
         <h2 class="text-center name">Exigences Non Fonctionnelles</h2>
         <div class="col-md-12 col-sm-12">
@@ -20,17 +20,17 @@
                     <tbody>
                     <?php foreach ($notfonctionnelles as $notfonctionnelle) : ?>
                         <tr>
-                            <th><?= $notfonctionnelle->getExigence() ?></th>
+                            <td><?= $notfonctionnelle->getExigence() ?></td>
                             <td><?= $notfonctionnelle->getDescription() ?></td>
                             <td><?= $notfonctionnelle->getFlexibilite() ?></td>
-                            <td><a href=<?= local . "exigence/detail" ?> class="btn btn-primary">Selectionner</a></td>
+                            <td><a href=<?= local . "exigence/liste/" ?><?= $notfonctionnelle->getExigence() ?> class="btn btn-primary">Liste</a></td>
                         </tr>
                     <?php endforeach; ?>
                     </tbody>
                 </table>
             </div>
 		</div>
-
+    </div>
     <div class="row haut">
         <div class="col-md-4 col-sm-12 d-grid gap-2 mx-auto haut">
             <a href=<?= local . "exigence/perimetre" ?> class="btn btn-success">Voir Perimetre du Systeme</a>

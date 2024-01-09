@@ -1,7 +1,7 @@
 <footer class="haut">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-4">
+            <div class="col-lg-4 col-md-12">
                 <h4>Nos réseaux sociaux</h4>
                 <p class="haut">
                     <a href="https://fr-fr.facebook.com/" target="blank"><img src=<?= local . "public/img/facebook.png" ?> alt="Facebook"></a>
@@ -9,18 +9,18 @@
                     <a href="https://twitter.com/?lang=fr" target="blank"><img src=<?= local . "public/img/twitter.png" ?> alt="Twitter"></a>
                 </p>
             </div>
-            <div class="col-md-4 col-sm-4">
+            <div class="col-lg-4 col-md-12">
                 <h4>Nous contacter</h4>
-                <p class="home">50 rue de l'aviation, 64000 PAU</p>
+                <p class="home">50 rue de l'aviation, 93500 PANTIN</p>
                 <p class="mail">gaetan.fouillet@test.com</p>
                 <p class="mobile">06 33 33 33 33</p>
             </div>
-            <div class="col-md-4 col-sm-4">
+            <div class="col-lg-4 col-md-12">
                 <h4>Liens</h4>
                 <ul>
                     <li><a href=<?= local . "./" ?>>Accueil</a></li>
                     <li><a href=<?= local . "import" ?>>Importer</a></li>
-                    <li><a href=<?= local . "data" ?>>Data</a></li>
+                    <li><a href=<?= local . "exigence/data" ?>>Data</a></li>
                 </ul>
             </div>
         </div>

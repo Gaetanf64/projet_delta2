@@ -24,7 +24,7 @@
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item"><a href=<?= local . "./" ?> class="nav-link">Accueil</a></li>
                         <li class="nav-item"><a href=<?= local . "import" ?> class="nav-link">Import</a></li>
-                        <li class="nav-item"><a href==<?= local . "data" ?> class="nav-link">Data</a></li>
+                        <li class="nav-item"><a href=<?= local . "exigence/data" ?> class="nav-link">Data</a></li>
                     </ul>
                 </div>
             </div>

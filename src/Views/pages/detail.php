@@ -47,13 +47,13 @@
                 </tr>
             </tbody>
         </table>
-
+    </div>
     <div class="row haut">
         <div class="col-md-3 col-sm-12 d-grid gap-2 mx-auto haut">
             <a href=<?= local . "exigence/perimetre" ?> class="btn btn-success">Voir Perimetre du Systeme</a>
         </div>
         <div class="col-md-3 col-sm-12 d-grid gap-2 mx-auto haut">
-            <a href=<?= local . "exigence/fonctionnel" ?> class="btn btn-success">Voir Exigences Fonctionnelles</a>
+            <a href=<?= local . "exigence/systeme" ?> class="btn btn-success">Voir Etat du systeme</a>
         </div>
         <div class="col-md-3 col-sm-12 d-grid gap-2 mx-auto haut">
             <a href=<?= local . "exigence/fonctionnel" ?> class="btn btn-success">Voir Exigences Fonctionnelles</a>

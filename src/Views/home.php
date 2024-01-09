@@ -33,10 +33,10 @@
     <!--Section Home Contenu-->
     <section class="contenu haut">
         <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="col-lg-6 col-md-12">
                 <p class="info4"></p>
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12 d-flex flex-column">
+            <div class="col-lg-6 col-md-12 d-flex flex-column">
                 <h2 class="dview d-flex  justify-content-center">Data View</h2>
                 <article class="gboite d-flex justify-content-between">
                     <a href=<?= local . "exigence/systeme" ?> class="boite b1 d-flex align-items-center justify-content-center">Etat du systeme</a>     
