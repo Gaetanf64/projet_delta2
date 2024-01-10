@@ -25,7 +25,7 @@
                             <td><?= $fonctionnelle->getDescription() ?></td>
                             <td><?= $fonctionnelle->getPriorite() ?></td>
                             <td><?= $fonctionnelle->getFlexibilite() ?></td>
-                            <td><a href=<?= local . "exigence/detail/" ?><?= $fonctionnelle->getExigence() ?> class="btn btn-primary">Selectionner</a></td>
+                            <td><a href=<?= local . "exigence/detail/" . $fonctionnelle->getExigence() ?> class="btn btn-primary">Selectionner</a></td>
                         </tr>
                     <?php endforeach; ?>
                     </tbody>

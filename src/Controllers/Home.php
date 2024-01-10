@@ -11,8 +11,8 @@ class Home extends MainController
     /**
      * Afficher la page d'accueil
      */
-    public function index()
+    public function home()
     {
-        $this->render('home', []);
+        $this->render('home');
     }
 }

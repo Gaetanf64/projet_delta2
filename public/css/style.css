@@ -46,7 +46,6 @@ nav {
 }
 
 .navbar-brand {
-    /* font-family: 'Lobster', sans-serif; */
     font-size: 25px;
 }
 
@@ -69,7 +68,7 @@ footer .container div {
 
 footer a, footer p {
     color: white;
-    font-size: 15px;
+    
 }
 
 footer h4 {

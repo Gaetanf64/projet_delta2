@@ -25,6 +25,9 @@ if ($params[0] != "") {
     // On sauvegarde le 2ème paramètre dans $action si il existe, sinon index
     $action = isset($params[1]) ? $params[1] : 'index';
 
+    // On sauvegarde le 2ème paramètre dans $action si il existe, sinon index
+    //$identifiant = isset($params[2]) ? $params[2] : '';
+
     // On charge la classe
     $class = "App\Controllers\\$controller";
 
@@ -41,8 +44,6 @@ if ($params[0] != "") {
         unset($params[0]);
         unset($params[1]);
         call_user_func_array([$controller, $action], $params);
-        // On appelle la méthode
-        $controller->$action($params);
     } else {
         // On envoie le code réponse 404
         http_response_code(404);
@@ -59,7 +60,7 @@ if ($params[0] != "") {
     $controller = new Home();
 
     // On appelle la méthode index
-    $controller->index();
+    $controller->home();
 };
 
 ?>

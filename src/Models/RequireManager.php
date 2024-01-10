@@ -220,8 +220,6 @@ class RequireManager extends Database
 
         $id = $this->readIdFonctionnelle($exigence);
 
-        var_dump($id);
-
         $sql = "SELECT perimetre.description, perimetre.exigence FROM perimetre,fonctionnel WHERE fonctionnel.id = :id AND perimetre.id = fonctionnel.id_perimetre";
         $req = $this->db->prepare($sql);
         $req->bindValue('id', $id, PDO::PARAM_INT);
@@ -394,6 +392,8 @@ class RequireManager extends Database
         $req = $this->db->prepare($sql);
         $req->bindValue('id', $id, PDO::PARAM_INT);
         $req->execute();
+
+       
 
         //on crée la variable data qui
         //va contenir les données

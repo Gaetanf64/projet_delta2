@@ -18,7 +18,7 @@
             <div class="col-lg-4 col-md-12">
                 <h4>Liens</h4>
                 <ul>
-                    <li><a href=<?= local . "./" ?>>Accueil</a></li>
+                    <li><a href=<?= local . "./home" ?>>Accueil</a></li>
                     <li><a href=<?= local . "import" ?>>Importer</a></li>
                     <li><a href=<?= local . "exigence/data" ?>>Data</a></li>
                 </ul>
