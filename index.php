@@ -54,8 +54,6 @@ if ($params[0] != "") {
     // On appelle le contrôleur par défaut
     require_once ROOT . 'src/Controllers/Home.php';
 
-    //$params = "index";
-
     // On instancie le contrôleur
     $controller = new Home();
 

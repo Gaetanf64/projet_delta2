@@ -104,7 +104,6 @@ class Import extends MainController
             } 
             $key++;  
         }
-        //var_dump($data);
 
         foreach($data as $value)
         {
